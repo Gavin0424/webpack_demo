@@ -28,7 +28,7 @@ module.exports = {
             },
             {
                 test: /\.css$/, //正则匹配所有.css后缀的样式文件
-                use: ['style-loader','css-loader','less-loader']
+                use: ['style-loader','css-loader']
             },
             {
                 test: /\.less$/,  //正则匹配所有.less后缀的样式文件  
